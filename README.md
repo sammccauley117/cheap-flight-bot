@@ -1,5 +1,5 @@
 # CheapFlightBot
-Current Version: 0.0.0
+Current Version: 0.1.0
 
 Description: Uses Python and Selenium to search for cheap flights and then tweet the good deals
 
