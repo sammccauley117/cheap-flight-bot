@@ -1,15 +1,34 @@
 # This file contains misc. helper functions
 
-# Takes a airport acronym and translates it to its serving city and country
+# All airports to check
+airports = {
+    'ATH' : 'Athens, Greece',
+    'AMS' : 'Amsterdam, Netherlands',
+    'BCN' : 'Barcelona, Spain',
+    'BRU' : 'Brussels, Belgium',
+    'BUD' : 'Budapest, Hungary',
+    'CDG' : 'Paris, France',
+    'CMN' : 'Casablanca, Morocco',
+    'DUB' : 'Dublin, Ireland',
+    'FRA' : 'Frankfurt, Germany',
+    'HAV' : 'Havana, Cuba',
+    'KEF' : 'Reykjav\xC3\xADk, Iceland',
+    'LHR' : 'London, England',
+    'LIH' : 'Kauai, Hawaii',
+    'LIM' : 'Lima, Peru',
+    'MAD' : 'Madrid, Spain',
+    'SJC' : 'San Jose, Costa Rica',
+    'TLV' : 'Tel Aviv, Israel',
+    'VIE' : 'Vienna, Austria',
+    'ZRH' : 'Z\xC3\xBCrich, Switzerland'
+}
+
+# Takes a airport acronym and translates it to its corresponding city and country
 def decodeAirport(airport):
-    dests  = ['CDG', 'BCN', 'LHR',
-              'AMS', 'FRA', 'MAD',
-              'ZRH', 'ATH', 'VIE',
-              'BUD', 'BRU']
-    decode = ['Paris, France', 'Barcelona, Spain', 'London, England',
-              'Amsterdam, Netherlands', 'Frankfurt, Germany', 'Madrid, Spain',
-              'Z\xC3\xBCrich, Switzerland', 'Athens, Greece', 'Vienna, Austria',
-              'Budapest, Hungary', 'Brussels, Belgium']
-    for i in range(len(dests)):
-        if(dests[i] == airport):
-            return decode[i]
+    if airport in airports:
+        return airports[airport]
+    else:
+        if airport is 'CVG':
+            return 'Cincinnati, Ohio'
+        else:
+            return 'N/A'
