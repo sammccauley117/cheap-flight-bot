@@ -1,4 +1,6 @@
 # Version History
+## 0.2.0 - 3/20/2018
+Added cleaner destinations.csv functionality as well improved searching functions, efficiency, and flexibility. 
 ## 0.1.1 - 3/9/2018
 Focused on a more detailed version of the Flight object as well as data logging to track previous cheap flights, price averages, and which deals were tweeted.
 ## 0.1.0 - 2/26/2018

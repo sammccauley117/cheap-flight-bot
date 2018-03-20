@@ -1,0 +1,69 @@
+# Destination Code, Trip Length, City, Country
+#
+################################################################################
+#                                  Europe
+################################################################################
+AMS,10,Amsterdam,Netherlands
+ATH,10,Athens,Greece
+BCN,10,Barcelona,Spain
+BRU,10,Brussels,Belgium
+BUD,10,Budapest,Hungary
+CDG,10,Paris,France
+DUB,10,Dublin,Ireland
+FRA,10,Frankfurt,Germany
+KEF,10,Reykjav\xC3\xADk,Iceland
+LHR,10,London,England
+MAD,10,Madrid,Spain
+MXP,10,Milan,Italy
+OPO,10,Porto,Portugal
+OSL,10,Oslo,Norway
+VIE,10,Vienna,Austria
+ZRH,10,Z\xC3\xBCrich,Switzerland
+################################################################################
+#                                   Asia
+################################################################################
+BKK,10,Bangkok,Thailand
+DPS,10,Denpasar,Bali
+HKG,10,Hong Kong,China
+HND,10,Tokyo,Japan
+ICN,10,Seoul,South Korea
+KUL,10,Kuala Lumpur,Malaysia
+MFM,10,Macau,China
+NRT,10,Tokyo,Japan
+PNH,10,Phnom Penh,Cambodia
+SGN,10,Ho Chi Minh City,Vietnam
+SIN,10,Singapore,Singapore
+TLV,10,Tel Aviv,Israel
+################################################################################
+#                                 Africa
+################################################################################
+CMN,10,Casablanca,Morocco
+CPT,10,Cape Town,South Africa
+JNB,10,Johannesburg,South Africa
+################################################################################
+#                               Australia
+################################################################################
+AKL,10,Auckland,New Zealand
+PER,10,Perth,Australia
+SYD,10,Sydney,Australia
+################################################################################
+#                             North America
+################################################################################
+AUA,5,Aruba,Aruba
+BZE,5,Belize City,Belize
+GCM,5,Grand Cayman,Cayman Islands
+HAV,5,Havana,Cuba
+LIH,5,Kauai,Hawaii
+NAS,5,Nassau,Bahamas
+PTY,5,Panama City,Panama
+SJC,5,San Jose,Costa Rica
+SJU,5,San Juan,Puerto Rico
+YQB,5,Quebec City,Canada
+YUL,5,Montreal,Canada
+YYZ,5,Toronto,Canada
+################################################################################
+#SouthAmerica
+################################################################################
+EZE,6,Buenos Aires,Argentina
+LIM,6,Lima,Peru
+SCL,6,Santiago,Chile
