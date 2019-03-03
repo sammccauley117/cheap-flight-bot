@@ -1,5 +1,5 @@
 # CheapFlightBot
-Description: Uses Python and Selenium to search for cheap flights and then tweets the good deals
+Uses Python and Selenium to search for cheap flights and then tweets the good deals. Currently not active.
 
 Link: [https://twitter.com/CheapFlightBot](https://twitter.com/CheapFlightBot)
 
